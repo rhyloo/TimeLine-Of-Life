@@ -193,7 +193,7 @@ h1{
 		},
 		fetch: function(fn){
 			var xhr = new XMLHttpRequest();
-			xhr.open('GET', 'life.md', true);
+			xhr.open('GET', 'life.org', true);
 			xhr.onload = function(){
 				if (xhr.status == 200) fn(xhr.responseText);
 			};
